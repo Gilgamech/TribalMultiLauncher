@@ -1,7 +1,7 @@
 //Copyright 2025 Gilgamech Technologies
 //Author: Stephen Gillie
-//Created 11/28/2023
-//Updated 11/28/2023
+//Created 11/28/2025
+//Updated 11/28/2025
 // GT App Framework 1.1
 //Update Notes: 
 
@@ -112,10 +112,9 @@ namespace TribalMultiLauncherNamespace {
 
 		
 		// public static string WindowsUsername = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-		// public static string MainFolder = "C:\\Users\\"+WindowsUsername+"\\AppData\\Roaming\\.minecraft\\";
+		// public static string MainFolder = "C:\\Users\\"+WindowsUsername+"\\AppData\\Roaming\\.tribes\\";
 		// public static string logFolder = MainFolder+"\\logs"; //Logs folder;
-		public static string logFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft\\logs";
-		//public string logFolder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\logs"
+		public static string logFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.tribes\\logs";
 		public string LatestLog = logFolder+"\\latest.log";
 		
 		//ui
