@@ -35,7 +35,7 @@ using System.Windows.Forms;
 namespace TribalMultiLauncherNamespace {
     public class TribalMultiLauncher : Form {
 //{ Ints
-        public int build = 190;//Get-RebuildCsharpApp TribalMultiLauncher
+        public int build = 191;//Get-RebuildCsharpApp TribalMultiLauncher
 		public string appName = "TribalMultiLauncher";
 		public string StoreName = "Not Loaded";
 		public string StoreCoords = "Not Loaded";
@@ -63,7 +63,7 @@ namespace TribalMultiLauncherNamespace {
 
 		public string TVDownloadString = "https://downloads.tribesrevengeance.net/TribesVengeance.zip";
 		public string TVInstallString = downloadsPath + "\\TribesVengeance.zip";
-		public string TVLaunchString = "C:\\Dynamix\\Tribes2\\GameDaTV\\Tribes2.exe";
+		public string TVLaunchString = "C:\\Program Files (x86)\\VUGames\\Tribes Vengeance\\Program\\Bin\\TV_CD_DVD.exe";
 		public string TVDiscordString = "https://discord.gg/uXHjZ95";
 		public string TVWebsiteString = "https://tribesrevengeance.net/";
 
